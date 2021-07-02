@@ -1,0 +1,97 @@
+.Title {
+  margin: 2rem 0;
+}
+.containerCards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.flex-one {
+  flex: 25%;
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+.flex-two {
+  flex: 25%;
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+.flex-three {
+  flex: 25%;
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+.flex-four {
+  flex: 25%;
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+
+#card {
+  width: 20rem;
+  height: 12rem;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+nav {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.containerDonat {
+  padding: 2rem 0.25rem 0.25rem 0.25rem;
+}
+
+.cardDonat {
+  height: 10rem;
+}
+@media (max-width: 800px) {
+  .containerCards {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* .image1
+    {
+      position:absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 1;
+    }
+.image2
+    {
+      position:absolute;
+      top: 25px;
+      left: 25px;
+      z-index: 2;
+    } */
+
+.titleCard {
+  height : 2rem;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+imageTitle {
+  display: flex;
+  padding-top : 0.5rem;
+  padding-bottom: 0.5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.detailPools {
+  display: flex;
+  flex-direction: column;
+}
+
+.detailPoolsChild {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 0.25rem;
+}
